@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="9.070248">
+<testcase classname="Aspiration Testing" name="HomePage Validation" time="8.920649">
+<system-out><![CDATA[Given user lands on HomePage................................................passed
+Then user clicks on Spend Save Link.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="SpendAndSave Page testing" name="SpendAndSave Page Validation" time="0.149599">
+<failure message="java.lang.NullPointerException&#10;&#9;at com.qa.stepDefs.SpendAndSaveStepDef.validate_input_field_for_email_address_to_signup_is_displayed(SpendAndSaveStepDef.java:68)&#10;&#9;at ✽.Then validate input field for email address to signup is displayed(SpendSave.feature:9)&#10;"><![CDATA[Given user is on Save and Spend Page........................................passed
+Then Two cards are displayed................................................passed
+Then validate the Two card products, Aspiration and Aspiration Plus.........passed
+Then click on cardOne Get Aspiration........................................passed
+Then validate input field for email address to signup is displayed..........failed
+Then click on x.............................................................skipped
+Then click on cardTwo Get Aspiration Plus...................................skipped
+Then validate the modal with monthly and yearly plans appear................skipped
+Then validate Yearly radio button with bigAmount is displayed...............skipped
+Then validate monthly radio button with smallAmount is displayed............skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.qa.stepDefs.SpendAndSaveStepDef.validate_input_field_for_email_address_to_signup_is_displayed(SpendAndSaveStepDef.java:68)
+	at ✽.Then validate input field for email address to signup is displayed(SpendSave.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

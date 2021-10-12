@@ -1,0 +1,182 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "HomePage Validation",
+        "description": "",
+        "id": "aspiration-testing;homepage-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6277879351,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user lands on HomePage",
+            "match": {
+              "location": "HomePageStepDef.user_lands_on_HomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2642769326,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user clicks on Spend Save Link",
+            "match": {
+              "location": "HomePageStepDef.user_clicks_on_Spend_Save_Link()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Aspiration Testing",
+    "description": "",
+    "id": "aspiration-testing",
+    "keyword": "Feature",
+    "uri": "Aspiration.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "SpendAndSave Page Validation",
+        "description": "",
+        "id": "spendandsave-page-testing;spendandsave-page-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6407419,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on Save and Spend Page",
+            "match": {
+              "location": "SpendAndSaveStepDef.user_is_on_Save_and_Spend_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 33226892,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Two cards are displayed",
+            "match": {
+              "location": "SpendAndSaveStepDef.cards_are_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 45016204,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate the Two card products, Aspiration and Aspiration Plus",
+            "match": {
+              "location": "SpendAndSaveStepDef.validate_the_card_products_Aspiration_and_Aspiration_Plus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63815518,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on cardOne Get Aspiration",
+            "match": {
+              "location": "SpendAndSaveStepDef.click_on_card_Get_Aspiration()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1132551,
+              "error_message": "java.lang.NullPointerException\n\tat com.qa.stepDefs.SpendAndSaveStepDef.validate_input_field_for_email_address_to_signup_is_displayed(SpendAndSaveStepDef.java:68)\n\tat ✽.Then validate input field for email address to signup is displayed(SpendSave.feature:9)\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "validate input field for email address to signup is displayed",
+            "match": {
+              "location": "SpendAndSaveStepDef.validate_input_field_for_email_address_to_signup_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "click on x",
+            "match": {
+              "location": "SpendAndSaveStepDef.click_on_x()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "click on cardTwo Get Aspiration Plus",
+            "match": {
+              "location": "SpendAndSaveStepDef.click_on_card_Get_Aspiration_Plus()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "validate the modal with monthly and yearly plans appear",
+            "match": {
+              "location": "SpendAndSaveStepDef.validate_the_modal_with_monthly_and_yearly_plans_appears()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "validate Yearly radio button with bigAmount is displayed",
+            "match": {
+              "location": "SpendAndSaveStepDef.validate_Yearly_radio_button_with_bigAmount_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "validate monthly radio button with smallAmount is displayed",
+            "match": {
+              "location": "SpendAndSaveStepDef.validate_monthly_radio_button_with_smallAmount_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SpendAndSave Page testing",
+    "description": "",
+    "id": "spendandsave-page-testing",
+    "keyword": "Feature",
+    "uri": "SpendSave.feature"
+  }
+]
