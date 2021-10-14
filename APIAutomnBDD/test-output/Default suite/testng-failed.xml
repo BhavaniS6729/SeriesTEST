@@ -6,6 +6,7 @@
       <class name="com.qa.api.tests.GetSWapi">
         <methods>
           <include name="getcountForHeightGreaterThan200"/>
+          <include name="getSWapi"/>
         </methods>
       </class> <!-- com.qa.api.tests.GetSWapi -->
     </classes>

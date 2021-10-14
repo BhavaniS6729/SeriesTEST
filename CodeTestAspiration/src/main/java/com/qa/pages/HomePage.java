@@ -12,7 +12,8 @@ import com.qa.utils.TestBase;
 public class HomePage extends TestBase{
 	
 	//Object Repo 
-	@FindBy(xpath="//body[1]/div[1]/div[1]/header[1]/div[1]/a[1]/svg[1]/title[1]")
+	@FindBy(xpath="//a[contains(@href, 'https://www.aspiration.com/')]")
+	//@FindBy(xpath="//body[1]/div[1]/div[1]/header[1]/div[1]/a[1]/svg[1]/title[1]")
 	WebElement logo;
 	
 	@FindBy(xpath="//a[text()='Spend & Save']")

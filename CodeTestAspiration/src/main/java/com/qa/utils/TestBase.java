@@ -23,7 +23,7 @@ public class TestBase {
 		
 		try {
 			prop = new Properties();
-			FileInputStream finput = new FileInputStream("/Users/bhavani/eclipse-workspace"
+			FileInputStream finput = new FileInputStream("/Users/vi.karne/eclipse-workspace"
 					+ "/CodeTestAspiration/src/main/java/com/qa/config/config.properties");
 			prop.load(finput);
 		} catch (IOException e) {
@@ -36,7 +36,7 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 	
 		if (browserName.equals("chrome")) {
-		System.setProperty("webdriver.chrome.driver", "/Users/vi.karne/Downloads/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/Users/bhavani/Downloads/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 	    options.addArguments("--test-type");
 	    options.addArguments("--disable-web-security");
